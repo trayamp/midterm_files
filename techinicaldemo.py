@@ -11,12 +11,12 @@ if char == "Justin Fernando":
 #main class for the activity - use def when defining a statement ALWAYS REMEMBER THAT
 #if matanga ka at di mo alam ang palindrome - basta pag binaliktad mo yung number ganon pa rin yun na yun
 def is_palindrome(number):
-    "Check if a given number is a palindrome."
+    #"""""""Check if a given number is a palindrome."""""""
     str_num = str(number)
     return str_num == str_num[::-1]
 
 def process_file(file_path):
-    "Process the file and check if the sum of each line's numbers is a palindrome."
+    #"""""""Process the file and check if the sum of each line's numbers is a palindrome."""""""
     with open(file_path, 'r') as file:
         lines = file.readlines()
 
